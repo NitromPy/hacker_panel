@@ -10,6 +10,7 @@ const hackerLines = [
     "> Locating secret snack supply coordinates...",
     "> Accessing emergency chocolate reserves...",
     "> [!!!] CRITICAL ALERT [!!!]",
+    "> [!!!] Lose your weight, nga 🥀 [!!!]",
     "> Target has been successfully pranked! Have a nice day! 😎"
 ];
 
