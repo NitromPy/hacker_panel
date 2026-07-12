@@ -1,0 +1,38 @@
+/* Reset default margins and set a pitch-black background */
+body {
+    background-color: #000000;
+    color: #00ff00;
+    /* Classic matrix green */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+    /* Hides standard scrollbars for a cleaner look */
+}
+
+/* Style the terminal container */
+.terminal {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    /* Keeps line breaks intact */
+    word-wrap: break-word;
+}
+
+/* Make the cursor blink */
+.cursor {
+    font-weight: bold;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
